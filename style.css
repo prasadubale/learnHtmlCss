@@ -1,0 +1,33 @@
+.body {
+  background-color: darkcyan;
+}
+
+.container {
+  margin-right: 50%;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box {
+  border: solid;
+  border-radius: 6px;
+  border-width: 1px;
+  padding: 10px;
+  margin: 10px;
+  color: black;
+  background-color: transparent;
+  animation: backwards;
+  display: inline-flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transition: all;
+  animation-direction: alternate-reverse;
+}
+
+.BOX:hover {
+  border: 0;
+  box-shadow: 0 0 10px #05eeff, 0 0 40px #2c4b43, 0 0 20px #05a3ed;
+  transition: 0.11s;
+}
